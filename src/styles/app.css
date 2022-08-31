@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.margin-bottom {
+  margin-bottom: 20px;
+}
+.outer-div {
+  background-color: #2f3337;
+  height: 100vh;
+  display: flex;
+  padding: 10px;
+}
+
+.form-control {
+  margin: 20px 0px;
+}
+
+.form-component {
+  width: 900px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #dddddd;
+  padding: 25px;
+  border-radius: 20px;
+}
+.form-component label .red {
+  color: red;
+  font-size: 20px;
+}
+.form-component label {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.form-component input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.form-component input::-webkit-inner-spin-button,
+.form-component input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.form-component input[type="file"] {
+  width: auto;
+  display: block;
+}
+
+.form-component button {
+  background-color: #0a95ff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px #dddddd;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+.form-component .margin-left {
+  margin-left: 20px;
+}
+.form-component button:hover {
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+.text-danger {
+  color: red;
+}
